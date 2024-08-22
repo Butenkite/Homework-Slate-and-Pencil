@@ -1,0 +1,25 @@
+/*
+	further styling for home page
+
+	Author: Nicolaus Butenko
+	Date: 8/21/2024
+	Filename: home.css
+
+*/
+
+main {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+  padding: 40px 100px;
+}
+
+main :last-child {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+section img {
+  width: 100px;
+}
